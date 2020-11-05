@@ -1,0 +1,144 @@
+@font-face {
+  font-family: Orbitron;
+  src: url(https://fonts.googleapis.com/css2?family=Orbitron&display=swap);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-image: linear-gradient(to right, #5f4b8bff, #e69a8dff);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstPlayerCard {
+  background-color: #e8c8c2;
+  height: 90%;
+  width: 37%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  padding: 100px;
+  font-family: Orbitron, sans-serif;
+}
+.secondPlayerCard {
+  background-color: #e8c8c2;
+  height: 90%;
+  width: 37%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  padding: 100px;
+  font-family: Orbitron, sans-serif;
+}
+h3 {
+  font-size: 2.75rem;
+  margin-bottom: 50px;
+}
+.totalScoreFirst {
+  font-size: 4.5rem;
+  margin-bottom: 150px;
+  display: block;
+  color: #5f4b8bff;
+}
+.totalScoreSecond {
+  font-size: 4.5rem;
+  margin-bottom: 150px;
+  display: block;
+  color: #5f4b8bff;
+}
+.currentScoreFirst {
+  background-color: #5f4b8bff;
+  width: 200px;
+  height: 120px;
+  position: absolute;
+  top: 400px;
+  left: 24%;
+  border-radius: 10px;
+  padding-top: 25px;
+  color: white;
+}
+.currentScoreSecond {
+  background-color: #5f4b8bff;
+  width: 200px;
+  height: 120px;
+  position: absolute;
+  top: 400px;
+  right: 24%;
+  border-radius: 10px;
+  padding-top: 25px;
+  color: white;
+}
+.currentFirst {
+  padding-top: 25px;
+  font-size: 1.7rem;
+}
+.currentSecond {
+  padding-top: 25px;
+  font-size: 1.7rem;
+}
+.dice {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border: 0;
+}
+.newGame {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  padding: 13px 30px;
+  font-size: 1.5rem;
+  outline-style: none;
+  border-style: none;
+  color: lightslategrey;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.rollDice {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  padding: 13px 30px;
+  font-size: 1.5rem;
+  outline-style: none;
+  border-style: none;
+  color: lightslategrey;
+  cursor: pointer;
+}
+.hold {
+  position: absolute;
+  left: 50%;
+  top: 83%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  padding: 13px 30px;
+  font-size: 1.5rem;
+  outline-style: none;
+  border-style: none;
+  color: lightslategrey;
+  cursor: pointer;
+}
+.opacity {
+  background-color: rgba(232, 200, 194, 0.5);
+}
+.opacity h3 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.winner {
+  background-color: #150420;
+}
